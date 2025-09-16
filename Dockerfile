@@ -1,5 +1,5 @@
 # Sử dụng official Tomcat image (phiên bản 9.0)
-FROM tomcat:9.0-jdk11-openjdk
+FROM tomcat:9.0
 
 # Xóa file ROOT default của Tomcat
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
